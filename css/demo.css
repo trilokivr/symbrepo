@@ -1,0 +1,191 @@
+*{margin:0; padding:0;}
+
+body
+{
+	background: #E6EEF6;
+}
+p
+{
+	font-size: 15px;
+}
+.container
+{
+	margin: 20px 0;
+
+}
+.box
+{
+  width:100%;
+  height:auto;
+  float:left;
+  background-color:white; 
+  
+  border-radius:5px;
+  padding: 5px 10px;
+  position: fixed;
+}
+.box4
+{
+  background-color: white;
+  position:relative;
+  box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
+.shadow4:before, .shadow4:after{
+  position:absolute;
+  content:"";
+  top:14px;bottom:14px;left:0;right:0;
+  box-shadow:0 0 25px 3px #548E7F;
+  border-radius:100px/10px;
+  z-index:-1;
+}
+.heading1
+{
+	margin: 10px;
+}
+.para1
+{
+	margin:10px 20px;
+	font-size: 15px;
+}
+.para2
+{
+	margin:2% 5% 2% 60%;
+	padding: 8px 0 8px 40px;
+	border:none;
+	background-color: rgb(0, 222,155);
+	color: white;
+	letter-spacing: 1.5px;
+}
+.para3
+{
+	float: right;
+	margin:0px 80px;
+	color: rgb(0, 222,155);
+}
+.img
+{
+	margin-left: 20px;
+}
+.heading2
+{
+	margin-left: 20px;
+	border-bottom: 1px solid rgb(0, 222,155);
+	border-width: 60%;
+}
+.icon
+{
+	margin-left: 10px;
+	font-size: 20px;
+}
+.icontent
+{
+	font-size: 15px;
+	margin-left: 10px;
+}
+.second-container
+{
+	border-top:2px solid rgb(0, 222,155);
+	border-bottom: 2px solid rgb(0, 222,155);
+	margin-top: 20px;
+	padding-left:10px; 
+
+}
+.second-container h3
+{
+	margin-bottom: 20px;
+}
+.toast-body p
+{
+	word-wrap: break-word;
+}
+.toast-body span
+{
+	margin-left: 30px;
+	padding: 8px 35px;
+	background: #448AFF;
+	color: white;
+	cursor: pointer;
+	font-size: 15px;
+}
+.text-muted
+{
+	font-size: 12px;
+}
+.toast-header h3
+{
+	padding-bottom: 0;
+}
+.div-box
+{
+	border:1px solid silver;
+	width: 90%;
+	margin:auto;
+	margin-top: 10px;
+	
+}
+.div-box2
+{
+	border:1px solid silver;
+	width: 90%;
+	margin:auto;
+	margin-top: 10px;	
+}
+.div-box2 .box2
+{
+	border-bottom: 1px solid rgb(0, 222,155);
+}
+.div-box ul li
+{
+	
+}
+.list-unstyled span
+{
+	color: rgb(0, 222,155);
+
+}
+ul li p
+{
+	line-height: 12px;
+}
+ul li p
+{
+	margin-left: 20px;
+	padding: 10px;
+}
+.third-container
+{
+	border: 1px solid rgb(0, 222,155);
+}
+.third-container ul li
+{
+	border-bottom: 1px solid rgb(0, 222,155);
+}
+.third-container ul li:last-child{
+	border:none;
+}
+.third-container h3
+{
+	margin-left: 10px;
+}
+.heading3
+{
+	margin-left: 10px;
+}
+.two-colom
+{
+	margin-left: 10px;
+	border: 1px solid silver;
+}
+.tb-td
+{
+	border-right: 1px solid rgb(0, 222,155);
+
+}
+.tb-td h4
+{
+	margin-left: 20px;
+}
+.toast
+{
+	margin-top: 20px 10px;
+}
